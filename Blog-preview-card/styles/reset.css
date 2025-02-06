@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Убираем стандартные стили списков */
+ul, ol {
+    list-style: none;
+}
+
+
+
+/* Убираем стандартные подчеркивания ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Базовые стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Обнуление стандартных стилей кнопок и инпутов */
+button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Убираем стандартное поведение кнопок */
+button {
+    cursor: pointer;
+}
+
+/* Убираем стандартные стили для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Улучшение рендеринга шрифтов */
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,19 @@
+:root {
+  --color-yellow: #F4D04E;
+  --color-gray-950: #111111;
+  --color-gray-500: #6B6B6B;
+  --color-white: #FFFFFF;
+  
+  /*   spacing */
+  
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 24px;
+  
+  /* font-size */
+  
+  --font-size-text-preset-1: 24px;
+  --font-size-text-preset-2: 16px;
+  --font-size-text-preset-3: 14px;
+}

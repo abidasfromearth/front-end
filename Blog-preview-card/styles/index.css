@@ -1,0 +1,123 @@
+@font-face {
+  src: url("Blog-preview-card/fonts/fonts/Figtree-Italic-VariableFont_wght.ttf") format("ttf");
+  src: url("Blog-preview-card/fonts/fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+  src: url("Blog-preview-card/fonts/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
+  src: url("Blog-preview-card/fonts/fonts/static/Figtree-Medium.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
+body {
+  background: var(--color-yellow);
+  font-family: Figtree, sans-serif;
+}
+
+#main {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card {
+  max-width: 384px;
+  width: 100%;
+  
+  border-radius: 20px;
+  border: 1px solid var(--color-gray-950, #111);
+  background: var(--color-white, #FFF);
+  box-shadow: 8px 8px 0 0 #000;
+  margin: 0 24px;
+}
+
+.card__wrapper {
+  padding: var(--spacing-200);
+}
+
+.card__image {
+  border-radius: 10px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: var(--spacing-150);
+  padding-top: var(--spacing-150);
+}
+
+.card__sticker {
+  width: 100%;
+  max-width: 82px;
+  padding: var(--spacing-50) var(--spacing-150);
+  border-radius: 4px;
+  background: var(--color-yellow, #F4D04E);
+  
+  color: var(--color-gray-950, #111);
+  font-size: var(--font-size-text-preset-3);
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.card__creation-date {
+  color: var(--color-gray-950, #111);
+  font-size: var(--font-size-text-preset-3);
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card__title {
+  color: var(--color-gray-950);
+  font-size: var(--spacing-200);
+  font-weight: 800;
+  line-height: 150%;
+  transition: color 0.2s ease;
+}
+
+.card__title:hover, .card__title:active, .card__title:focus {
+  color: var(--color-yellow);
+}
+
+.card__description {
+  color: var(--color-gray-500);
+  font-size: var(--font-size-text-preset-2);
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card__footer address {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--spacing-150);
+  margin-top: var(--spacing-200);
+  height: 32px;
+}
+
+.card__author-image {
+
+}
+
+.card__author-name {
+  color: var(--color-gray-950, #111);
+  font-size: var(--font-size-text-preset-3, 14px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 23px;
+  text-align: center;
+  align-self: center;
+}
