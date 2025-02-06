@@ -1,11 +1,4 @@
-@font-face {
-  src: url("../fonts/fonts/Figtree-Italic-VariableFont_wght.ttf") format("ttf");
-  src: url("../fonts/fonts/Figtree-VariableFont_wght.ttf") format("ttf");
-  src: url("../fonts/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
-  src: url("../fonts/fonts/static/Figtree-Medium.ttf") format("ttf");
-  font-style: normal;
-  font-weight: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
 
 .visually-hidden {
   position: absolute;
@@ -17,6 +10,10 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
   white-space: nowrap;
+}
+
+* {
+  font-family: "Figtree", sans-serif;
 }
 
 body {
