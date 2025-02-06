@@ -1,8 +1,8 @@
 @font-face {
-  src: url("Blog-preview-card/fonts/fonts/Figtree-Italic-VariableFont_wght.ttf") format("ttf");
-  src: url("Blog-preview-card/fonts/fonts/Figtree-VariableFont_wght.ttf") format("ttf");
-  src: url("Blog-preview-card/fonts/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
-  src: url("Blog-preview-card/fonts/fonts/static/Figtree-Medium.ttf") format("ttf");
+  src: url("../fonts/fonts/Figtree-Italic-VariableFont_wght.ttf") format("ttf");
+  src: url("../fonts/fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+  src: url("../fonts/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
+  src: url("../fonts/fonts/static/Figtree-Medium.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
