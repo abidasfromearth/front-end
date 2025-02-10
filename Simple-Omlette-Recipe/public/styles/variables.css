@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  --color-rose-800: #7A284E;
+  --color-rose-50: #FFF7FB;
+  --color-stone-900: #312E2C;
+  --color-stone-600: #5F564D;
+  --color-stone-150: #E3DDD7;
+  --color-stone-100: #F3E5D7;
+  --color-brown-800: #854632;
+  --color-white: #FFFFFF;
+  
+  /* Spacing */
+  --spacing-1600: 8rem;
+  --spacing-600: 3rem;
+  --spacing-500: 2.5rem;
+  --spacing-400: 2rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
+  
+  /* Font Sizes - Desktop */
+  --font-size-desktop-text-preset-1: 2.5rem;
+  --font-size-desktop-text-preset-2: 1.75rem;
+  --font-size-desktop-text-preset-3: 1.25rem;
+  --font-size-desktop-text-preset-4: 1rem;
+  
+  /* Font Sizes - Mobile */
+  --font-size-mobile-text-preset-1: 2.25rem;
+}
