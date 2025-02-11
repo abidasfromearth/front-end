@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
+* {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+
+body {
+  background: var(--сolor--cream-bg);
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  font-family: Fraunces sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100dvh;
+}
+
+.perfume-card {
+  max-width: 37.5rem;
+  width: 100%;
+  display: flex;
+}
+
+.perfume-card__image {
+  width: 50%;
+}
+
+.perfume-card__content {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+}
+
+.perfume-card__perfume {
+  color: var(--color--Aurometal-Saurus);
+  font-feature-settings: "liga" off, "clig" off;
+  
+  /* Overline */
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+.perfume-card__content h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  
+  color: var(--color-Gunmetal, #1C232B);
+  font-feature-settings: "liga" off, "clig" off;
+  
+  /* Display */
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.perfume-card__description {
+  margin-bottom: 1.8125rem;
+  
+  color: var(--color--Aurometal-Saurus);
+  font-feature-settings: "liga" off, "clig" off;
+  
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.perfume-card__price {
+  display: flex;
+  gap: 1.1875rem;
+  align-items: center;
+  margin-bottom: 1.875rem;
+}
+
+.perfume-card__price-new {
+  color: var(--color-Deep-Aquamarine);
+  font-feature-settings: "liga" off, "clig" off;
+  
+  /* Display */
+  font-family: Fraunces, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.perfume-card__price-old del {
+  color: var(--color--Aurometal-Saurus);
+  
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.add-to-cart {
+  width: 100%;
+  border-radius: 8px;
+  background: var(--color-Deep-Aquamarine);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11.61px;
+  padding: 15px 0 16px 0;
+}
+
+.add-to-cart span {
+  color: var(--color-white);
+  font-feature-settings: "liga" off, "clig" off;
+  
+  /* Button Text */
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Medias */
+
+@media (max-width: 610px) {
+  .main {
+    height: auto;
+  }
+  
+  .perfume-card {
+    margin: 28px 16px;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .perfume-card__image, .perfume-card__content {
+    width: unset;
+  }
+  
+  .perfume-card__content {
+    border-radius: 0 0 10px 10px;
+    padding: 1.5rem;
+  }
+  
+  .perfume-card__image img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .perfume-card__content h2 {
+    margin: 0.75rem 0;
+  }
+  
+  .perfume-card__description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .perfume-card__price {
+    margin-bottom: 1.25rem;
+  }
+  
+}

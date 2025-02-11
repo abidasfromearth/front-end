@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social link profile</title>
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/images/favicon.ico" />
+</head>
+<body>
+
+<header class="header">
+  <h1 class="visually-hidden">Social link profile</h1>
+</header>
+
+<main class="main">
+  <div class="perfume-card">
+    <div class="perfume-card__image">
+      <picture>
+        <!--         here is better use png or even webp format, due this study project I won't use it here -->
+        <source srcset="assets/images/image-product-desktop.jpg" media="(min-width: 610px)">
+        <img src="assets/images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
+      </picture>
+    </div>
+    <div class="perfume-card__content">
+      <p class="perfume-card__perfume">PERFUME</p>
+      <h2>Gabrielle Essence Eau De Parfum</h2>
+      <p class="perfume-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of
+        CHANEL.</p>
+      <div class="perfume-card__price">
+        <p class="perfume-card__price-new">$149.99</p>
+        <p class="perfume-card__price-old">
+          <del>$169.99</del>
+        </p>
+      </div>
+      <!--       using block here for cases if you need reuse this button -->
+      <button class="add-to-cart">
+        <img src="assets/images/icon-cart.svg" alt="Add to cart">
+        <span>Add to Cart</span>
+      </button>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <p class="visually-hidden">© 2025 abidasfromearth</p>
+</footer>
+
+</body>
+</html>
