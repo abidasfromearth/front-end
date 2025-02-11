@@ -121,12 +121,17 @@ h2 {
 .add-to-cart {
   width: 100%;
   border-radius: 8px;
-  background: var(--color-Deep-Aquamarine);
+  background-color: var(--color-Deep-Aquamarine);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 11.61px;
   padding: 15px 0 16px 0;
+  transition: background-color 0.6s ease;
+}
+
+.add-to-cart:hover {
+  background: var(--color-deep-aquamarine-hover);
 }
 
 .add-to-cart span {
