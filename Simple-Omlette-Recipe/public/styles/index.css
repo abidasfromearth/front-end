@@ -47,11 +47,15 @@ hr {
 .recipe__wrapper {
   display: flex;
   flex-direction: column;
-  padding: var(--spacing-500);
+  padding: var(--spacing-400);
 }
 
 .recipe__image {
   border-radius: var(--spacing-150);
+}
+
+.recipe__image-mobile {
+  display: none;
 }
 
 .recipe__content {
@@ -262,5 +266,31 @@ hr {
 
 .recipe__nutrition-data {
   padding-left: var(--spacing-200);
+}
+
+
+/* Medias */
+
+@media (max-width: 400px) {
+  .recipe__title {
+    font-size: var(--font-size-mobile-text-preset-1);
+  }
+  
+  .recipe {
+    margin-top: 0;
+    border-radius: 0;
+  }
+  
+  .recipe__image-mobile {
+    display: block;
+  }
+  
+  .recipe__wrapper {
+    padding: 0 var(--spacing-400) var(--spacing-400) var(--spacing-400)
+  }
+  
+  .recipe__wrapper img {
+    display: none;
+  }
 }
 
