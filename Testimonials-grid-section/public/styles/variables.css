@@ -1,0 +1,28 @@
+:root {
+  --color-dark-blue: #19202D;
+  --color-black: #121212;
+  --color-white: #FFFFFF;
+  --color-grey-500: #48556A;
+  --color-grey-400: #676D7E;
+  --color-grey-200: #CFCFCF;
+  --color-grey-100: #E7EAEE;
+  --color-purple-500: #733FC8;
+  --color-purple-300: #A775F1;
+  --color-purple-50: #EDE4FF;
+  
+  /*   spacing */
+  
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-1600: 5.1875rem;
+  
+  /* font-size */
+  
+  --font-size-text-preset-1: 1.25rem;
+  --font-size-text-preset-2: 8.125rem;
+  --font-size-text-preset-3: 0.8125rem;
+  --font-size-text-preset-4: 0.8125rem;
+}
