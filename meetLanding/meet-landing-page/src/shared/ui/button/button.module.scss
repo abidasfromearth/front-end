@@ -1,0 +1,19 @@
+.button {
+  border-radius: 29px;
+  padding: var(--spacing-200) var(--spacing-500);
+}
+
+.label {
+  font-size: 1rem;
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.purple {
+  background-color: var(--color-purple-600);
+}
+
+.cyan {
+  background-color: var(--color-cyan-600);
+}

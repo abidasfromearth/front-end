@@ -1,0 +1,37 @@
+.whyUs {
+  font-family: "Red Hat Display", sans-serif;
+  font-feature-settings: 'liga' off, 'clig' off;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+
+
+  h3 {
+    text-align: center;
+    color: var(--color-cyan-600);
+    font-size: clamp(0.75rem, 0.662rem + 0.376vw, 1rem); // 12px to 16px, 375px to 1440px
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%; /* 17.6px */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: var(--color-slate-900);
+    text-align: center;
+    font-size: clamp(2rem, 1.824rem + 0.751vw, 2.5rem); // 32px to 40px, 375 to 1440pxx
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%; /* 44px */
+  }
+
+  p {
+    color: var(--color-slate-600);
+    text-align: center;
+    font-size: clamp(1rem, 0.956rem + 0.188vw, 1.125rem); // 16px to 18px, 375 to 1440px
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+  }
+}

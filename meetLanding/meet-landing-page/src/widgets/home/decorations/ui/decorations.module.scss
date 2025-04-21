@@ -1,0 +1,59 @@
+.imgRight {
+  justify-self: end;
+}
+
+.middleDecorations {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+  font-family: "Red Hat Display", sans-serif;
+
+  &Title {
+    color: var(--color-slate-900);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-size: clamp(2.25rem, 1.75rem + 2.5vw, 4rem); // from 36px to 64px , 320 to 1440
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+  }
+
+  &Description {
+    color: var(--color-slate-600, #87879D);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    /* desktop/text-preset-4 */
+    font-size: clamp(1rem, 0.956rem + 0.188vw, 1.125rem); // from 18px to 16px, 375 to 1440
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+  }
+
+  &Actions {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+
+    @media (max-width: 375px) {
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+      width: 78%;
+      margin: 0 auto;
+
+      button:nth-child(2) {
+        width: 85%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 clamp(2.188rem, -5.267rem + 31.807vw, 10rem); // 35px to 160px, 375px to 768
+  }
+}
